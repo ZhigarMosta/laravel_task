@@ -11,7 +11,7 @@
 .header.visible {
     top: 0;
 }
-.container {
+.container-header {
     background: #32353e;
 
     display: flex;

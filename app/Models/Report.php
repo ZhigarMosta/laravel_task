@@ -19,7 +19,7 @@ class Report extends Model
         return $this->BelongsTo(User::class);
     }
 
-    public function Statuse(): BelongsTo
+    public function statuse(): BelongsTo
     {
         return $this->BelongsTo(Statuse::class);
     }
